@@ -6,7 +6,7 @@
 #    By: jabenjam <jabenjam@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/16 11:50:11 by chgilber          #+#    #+#              #
-#    Updated: 2020/12/10 14:59:49 by chgilber         ###   ########.fr        #
+#    Updated: 2021/02/02 14:27:10 by chgilber         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,6 @@ NAME = philo_2
 SRCS =	../incs/ft_strdup.c\
 		../incs/ft_strlen.c\
 		../incs/get_le_temps.c\
-		../incs/messagerror.c\
 		../incs/parsing.c\
 		../incs/utils.c\
 		../incs/utoa.c\

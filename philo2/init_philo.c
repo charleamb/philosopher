@@ -6,7 +6,7 @@
 /*   By: chgilber <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 16:13:20 by chgilber          #+#    #+#             */
-/*   Updated: 2020/12/10 14:56:42 by chgilber         ###   ########.fr       */
+/*   Updated: 2021/02/02 14:13:30 by chgilber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	initphilo(t_all *all, t_phil *philo)
 {
-	unsigned int i;
+	unsigned int	i;
 	sem_t			*sem_forks;
 	sem_t			*sem_display;
 
