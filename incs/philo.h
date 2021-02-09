@@ -6,7 +6,7 @@
 /*   By: chgilber <charleambg@gmail.com>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/18 18:06:32 by chgilber          #+#    #+#             */
-/*   Updated: 2020/12/10 14:17:12 by chgilber         ###   ########.fr       */
+/*   Updated: 2021/02/09 14:16:36 by user42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <stdio.h>
 # include <stdlib.h>
 # include <pthread.h>
+# include <signal.h>
 # include <sys/time.h>
 # include <stdbool.h>
 
