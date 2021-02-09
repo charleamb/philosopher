@@ -6,7 +6,7 @@
 /*   By: chgilber <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/21 13:42:14 by chgilber          #+#    #+#             */
-/*   Updated: 2021/02/04 14:56:49 by user42           ###   ########.fr       */
+/*   Updated: 2021/02/09 14:11:25 by user42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,10 +30,11 @@ int			check(t_all *all, t_phil *philo)
 	int				status;
 	int				exitv;
 
+	(void)philo;
 	i = 0;
 	while (i < all->nop)
 	{
-		waitpid(philo[i].pid, &status, WNOHANG);
+		waitpid(-1, &status, 0);
 		if (WIFEXITED(status))
 			exitv = WEXITSTATUS(status);
 		if (exitv == 42)
